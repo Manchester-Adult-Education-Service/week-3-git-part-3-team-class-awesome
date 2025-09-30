@@ -18,6 +18,10 @@ print("Welcome to the Greeting Program!")
 # 1. Ask the user for their name
 # 2. Ask the user for their favourite hobby
 # 3. Print a greeting using both inputs
+name = input("What's your name? ")
+hobby = input("What's your fave hobby? ")
+print(f"Hi {name}, how funny I love {hobby} too!")
+print()
 
 # Step 2: Git Branch
 # ------------------
